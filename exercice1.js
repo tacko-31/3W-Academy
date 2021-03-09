@@ -18,7 +18,7 @@
    {id: 2351, customer: 67, product: 8, timestamp: "1599135151", price: "125.99"}
  ];
 
-
+//function discount
 function discountPriceByMonth(orders){
   for (let i = 0; i < orders.length; i++) {
       let date = new Date(orders[i].timestamp * 1000);
